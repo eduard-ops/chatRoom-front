@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-concat */
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
@@ -11,7 +12,7 @@ import { ChatProvider } from "./context/ChatContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename="chatRoom-front">
+    <BrowserRouter basename={"chatRoom-front" + "/"}>
       <UserProvider>
         <RoomProvider>
           <Routes>

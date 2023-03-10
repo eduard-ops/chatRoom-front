@@ -2,7 +2,7 @@
   "name": "chatroom-front",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://eduard-ops.github.io/chatRoom-front/",
+  "homepage": "https://eduard-ops.github.io/chatRoom-front",
   "dependencies": {
     "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.2",
