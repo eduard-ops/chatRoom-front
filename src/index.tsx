@@ -12,7 +12,7 @@ import { ChatProvider } from "./context/ChatContext";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={"chatRoom-front" + "/"}>
+    <BrowserRouter basename={"chatRoom-front"}>
       <UserProvider>
         <RoomProvider>
           <Routes>
